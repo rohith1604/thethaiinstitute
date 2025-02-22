@@ -58,7 +58,7 @@ export default function Home() {
           </p>
           <div className="mt-8 space-x-4 animate-fadeInUp animation-delay-400">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 transition-transform hover:scale-105">
-              <Link href="#courses">Explore Courses</Link>
+              <Link href="courses">Explore Courses</Link>
             </Button>
             <Button asChild size="lg" variant="secondary" className="bg-secondary hover:bg-secondary/90 transition-transform hover:scale-105">
               <Link href="apply">Apply Now</Link>
