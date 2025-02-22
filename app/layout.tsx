@@ -3,7 +3,7 @@ import { MainNav } from "@/components/ui/main-nav"
 import { Footer } from "@/components/ui/footer"
 import { Montserrat } from "next/font/google"
 import { Toaster } from "sonner"
-import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import "./globals.css"
 
 const montserrat = Montserrat({ subsets: ["latin"] })
@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={montserrat.className}>
         <MainNav />
         {children}
-        <SpeedInsights />
+      
         <Footer />
         <Toaster />
       </body>
